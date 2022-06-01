@@ -1,12 +1,14 @@
 import React from 'react';
-import './App.css';
+import { Route, Route } from 'react-router-dom';
 
 function App() {
-  return (
-    <p>
-      Cleanedup React App
-    </p>
-  );
+  return (<>
+    <div className="App">
+      <H1 className="display-1">
+        Hello, world!
+      </H1>
+    </div>
+  </>)
 }
 
 export default App;
